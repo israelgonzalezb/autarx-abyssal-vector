@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #05070B;
+    color: #F8FAFC;
+    font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Subtle CRT scanline texture overlay for instrument panels */
+.crt-scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.28) 50%
+  );
+  background-size: 100% 4px;
+}
+
+/* Custom thin tactical scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #05070B;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E2638;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #38BDF8;
+}
