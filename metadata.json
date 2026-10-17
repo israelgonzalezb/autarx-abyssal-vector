@@ -1,6 +1,8 @@
 {
-  "name": "AUTARG // ABYSSAL_VECTOR v1.0",
+  "name": "AUTARX // ABYSSAL_VECTOR v1.0",
   "description": "Deep-sea robotic fleet simulator, real-time 3D bathymetric sonar pilot deck, and autonomous surface-to-trench economic management game.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
